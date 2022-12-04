@@ -28,20 +28,6 @@ server:
 spring:
   application:
     name: chi-discovery-service
-eureka:
-  instance:
-    hostname: localhost
-    prefer-ip-address: false
-    nonSecurePortEnabled: true
-    securePortEnabled: false
-  server:
-    wait-time-in-ms-when-sync-empty: 0
-    renewal-percent-threshold: 0.85
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    service-url:
-      defaultZone: ${EUREKA_SERVICE_URL:}
 custom:
   trust-store-password: ${SSL_TRUSTSTORE_PASSWORD:}
   trust-store-type: JKS
