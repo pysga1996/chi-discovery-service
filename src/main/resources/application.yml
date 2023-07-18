@@ -5,7 +5,7 @@ logging:
 server:
   port: 8010
   servlet:
-    context-path: /
+    context-path: /chi-discovery
     encoding:
       charset: UTF-8
       enabled: true

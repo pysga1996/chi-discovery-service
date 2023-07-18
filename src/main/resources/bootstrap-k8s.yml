@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: ${CHI_DISCOVERY_HOST:}
+    hostname: ${CHI_DISCOVERY_HOSTNAME:}
     prefer-ip-address: false
     nonSecurePortEnabled: true
     securePortEnabled: false
