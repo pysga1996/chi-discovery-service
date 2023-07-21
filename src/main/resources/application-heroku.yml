@@ -4,7 +4,7 @@ logging:
   config: classpath:log4j-spring.xml
 server:
   servlet:
-    context-path: /chi-discovery
+    context-path: /chi-discovery-service
     encoding:
       charset: UTF-8
       enabled: true

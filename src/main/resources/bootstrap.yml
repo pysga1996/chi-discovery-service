@@ -2,13 +2,13 @@ eureka:
   instance:
     hostname: localhost
     prefer-ip-address: false
-    nonSecurePortEnabled: true
-    securePortEnabled: false
+    non-secure-port-enabled: true
+    secure-port-enabled: false
   server:
     wait-time-in-ms-when-sync-empty: 0
     renewal-percent-threshold: 0.85
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    register-with-eureka: true
+    fetch-registry: false
     service-url:
       defaultZone: ${EUREKA_SERVICE_URL:}
